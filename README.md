@@ -1,3 +1,3 @@
-# goit-markup-hw-02
-GoIT homework #2
-https://extezzu.github.io/goit-markup-hw-02/
+# goit-markup-hw-03
+GoIT homework #3
+https://extezzu.github.io/goit-markup-hw-03/
