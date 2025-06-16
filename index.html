@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <meta name="description" content="GoIT homework 1">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -20,6 +19,7 @@
 <body>
     <!-- Header -->
     <header>
+        <div class="wrapper">
         <nav>
             <a href="./index.html" class="logo">Web<span class="header-span">Studio</span></a>
             <ul class="nav-links">
@@ -34,18 +34,22 @@
                 <li class="contact-li"><a href="tel:+110001111111" class="contact-a">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+    </div>
     </header>
 
     <main>
         <!-- Business section #1-->
         <section class="section-business">
+            <div class="wrapper">
             <h1 class="business-title">Effective Solutions for Your Business</h1>
             <button type="button" class="business-button">Order Service</button>
+            </div>
         </section>
 
         <!-- Features Section #2-->
         <section>
-            <h2>Professionalism</h2>
+            <div class="wrapper">
+            <h2 hidden>Professionalism</h2>
             <ul>
                 <li>
                     <h3 class="strategy-title">Strategy</h3>
@@ -68,10 +72,12 @@
                         problem-solving.</p>
                 </li>
             </ul>
+            </div>
         </section>
 
         <!-- Team Section #3-->
         <section class="section-team">
+            <div class="wrapper">
             <h2 class="team-title">Our Team</h2>
             <ul>
                 <li class="team-member">
@@ -95,50 +101,55 @@
                     <p class="team-member-role">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
 
         <!-- Portfolio Section #4 -->
-        <section>
+        <section class="section-portfolio">
+            <div class="wrapper">
             <h2 class="portfolio-title">Our Portfolio</h2>
             <ul>
-                <li>
+                <li class="portfolio-item">
                     <img src="./images/portfolio-1.jpg" alt="Banking App" width="360" height="300">
                     <h3 class="portfolio-item-title">Banking App</h3>
                     <p class="portfolio-item-category">App</p>
                 </li>
-                <li>
+                <li class="portfolio-item">
                     <img src="./images/portfolio-2.jpg" alt="Cashless Payment" width="360" height="300">
                     <h3 class="portfolio-item-title">Cashless Payment</h3>
                     <p class="portfolio-item-category">Marketing</p>
                 </li>
-                <li>
-                    <img src="./images/portfolio-3.jpg" alt="Meditation App" width="360" height="300">
+                <li class="portfolio-item">
+                    <img src="./images/portfolio-3.jpg" alt="Meditation App">
                     <h3 class="portfolio-item-title">Meditation App</h3>
                     <p class="portfolio-item-category">App</p>
                 </li>
-                <li>
-                    <img src="./images/portfolio-4.jpg" alt="Taxi Service" width="360" height="300">
+                <li class="portfolio-item">
+                    <img src="./images/portfolio-4.jpg" alt="Taxi Service">
                     <h3 class="portfolio-item-title">Taxi Service</h3>
                     <p class="portfolio-item-category">Marketing</p>
                 </li>
-                <li>
-                    <img src="./images/portfolio-5.jpg" alt="Screen Illustrations" width="360" height="300">
+                <li class="portfolio-item">
+                    <img src="./images/portfolio-5.jpg" alt="Screen Illustrations">
                     <h3 class="portfolio-item-title">Screen Illustrations</h3>
                     <p class="portfolio-item-category">Design</p>
                 </li>
-                <li>
-                    <img src="./images/portfolio-6.jpg" alt="Online Courses" width="360" height="300">
+                <li class="portfolio-item">
+                    <img src="./images/portfolio-6.jpg" alt="Online Courses">
                     <h3 class="portfolio-item-title">Online Courses</h3>
                     <p class="portfolio-item-category">Marketing</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
 
     <!-- Footer -->
     <footer class="footer">
+        <div class="wrapper">
         <a href="./index.html" class="logo">Web<span class="footer-span">Studio</span></a>
         <p class="footer-description">Increase the flow of customers and sales for your business with digital marketing &amp; growth solutions.</p>
+        </div>
     </footer>
 </body>
 
