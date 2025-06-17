@@ -40,7 +40,7 @@ section {
     flex-wrap: wrap;
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px
+    padding: 0 15px;
 }
 
 
@@ -57,6 +57,7 @@ header {
 }
 
 .logo {
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -68,6 +69,10 @@ header {
 
 .logo span {
     color: #2e2f42;
+}
+
+.footer .logo span {
+    color: #f4f4fd;
 }
 
 .header-span {
@@ -127,10 +132,6 @@ header {
     color: #404bbf;
 }
 
-.contact-a:hover {
-    color: #404bbf
-}
-
 .button-active {
     padding: 24px 0;
 }
@@ -142,9 +143,6 @@ header {
 }
 
 .section-business .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -253,9 +251,7 @@ header {
     padding-bottom: 32px;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
-    box-shadow: 0px 2px 1px 0px #2E2F4214;
-    box-shadow: 0px 1px 1px 0px #2E2F4229;
-    box-shadow: 0px 1px 6px 0px #2E2F4214;
+    box-shadow: 0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 1px 6px 0px #2E2F4214;
 }
 
 .team-member img {
@@ -367,17 +363,6 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     margin-bottom: 16px;
-}
-
-.logo-footer {
-    display: inline-block;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: #4d5ae5;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-right: 76px;
 }
 
 .footer-span {
