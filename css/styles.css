@@ -57,7 +57,6 @@ header {
 }
 
 .logo {
-    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -356,6 +355,7 @@ header {
 }
 
 .footer .logo {
+    display: inline-block;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
