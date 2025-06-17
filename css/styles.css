@@ -64,6 +64,7 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     margin-right: 76px;
+    display: inline-block;
 }
 
 .logo span {
@@ -366,13 +367,11 @@ header {
     font-size: 18px;
     text-decoration: none;
     text-transform: uppercase;
-    display: inline-block;
     margin-bottom: 16px;
 }
 
 .logo .footer-span {
     color: #f4f4fd;
-    display: inline-block;
 }
 
 .footer-description {
