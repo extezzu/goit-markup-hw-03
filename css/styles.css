@@ -290,7 +290,7 @@ section {
     padding: 100px 0;
 }
 
-footer-logo {
+.footer-logo {
     display: inline-block;
     margin-bottom: 16px;
 }
@@ -307,3 +307,5 @@ footer-logo {
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
+
+
