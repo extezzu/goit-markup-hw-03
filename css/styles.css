@@ -40,7 +40,8 @@ section {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
     text-align: center;
     text-transform: capitalize;
 
@@ -80,7 +81,7 @@ section {
 /* ======================== header === */
 
 .header {
-  border-bottom: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-wrapper {
@@ -162,9 +163,10 @@ section {
 
 .business-title {
     margin: 0 auto 48px;
-
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
     max-width: 496px;
-
+    text-align: center;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -210,6 +212,12 @@ section {
 
 .features-subtitle {
     margin-bottom: 8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    line-height: 24px;
 }
 
 .features-item {
@@ -218,8 +226,8 @@ section {
 
 /* ======================== section-team #3 === */
 
-.team {
-    background: #f4f4fd;
+.section-team {
+    background: #F4F4FD;
 }
 
 .team-title {
@@ -248,6 +256,12 @@ section {
 .team-subtitle {
     text-align: center;
     margin-bottom: 8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    line-height: 24px;
 }
 
 .team-text {
@@ -273,6 +287,12 @@ section {
 
 .portfolio-subtitle {
     margin-bottom: 8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    line-height: 24px;
 }
 
 .portfolio-item-info {
